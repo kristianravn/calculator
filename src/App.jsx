@@ -5,7 +5,7 @@ import './App.css'
 
 
 
-function Calculator() {
+function App() {
   const [input, setInput] = useState('');
 
   const buttons = [
@@ -62,5 +62,5 @@ function Calculator() {
   );
 }
 
-export default Calculator;
+export default App;
 
